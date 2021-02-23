@@ -1,0 +1,18 @@
+﻿<Window x:Class="spikeball.AddNewTeam"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:spikeball"
+        mc:Ignorable="d"
+        Title="AddNewTeam" Height="450" Width="800">
+    <Grid>
+        <StackPanel Margin="10">
+            <TextBox x:Name="txtName" Margin="0,0,0,5" Text="Add contact name."></TextBox>
+            <TextBox x:Name="txtEmail" Margin="0,0,0,5" Text="Add email."></TextBox>
+            <TextBox x:Name="txtTelephone" Margin="0,0,0,5" Text="Add telephone number."></TextBox>
+            <Button x:Name="btnUpdateTeam" Content="Update" Click="UpdateTeamButton_Click" Width="50" RenderTransformOrigin="0.504,0.5"></Button>
+            <Button x:Name="btnCloseTeam" Content="Close" Click="CloseTeamButton_Click" Width="50"></Button>
+        </StackPanel>
+    </Grid>
+</Window>
